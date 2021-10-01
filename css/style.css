@@ -161,13 +161,14 @@ h2 {
     width: 60px;
     height: 30px;
     border-radius: 20px;
-    transition: linear 0.3s;
+    transition: linear 0.2s;
     background-color: var(--col2);
+    cursor: pointer;
 }
 .cercleJN {
     width: 23px;
     height: 23px;
     border-radius: 23px;
     background-color: var(--col1);
-    transition: linear 0.3s;
+    transition: linear 0.2s;
 }
