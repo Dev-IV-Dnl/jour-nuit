@@ -5,6 +5,24 @@
     --col4: transparent;
 }
 
+body {
+    background-color: var(--col2);
+}
+
+.dark {
+    --col1: #F1F1F1;
+    --col2: #333;
+    --col3: red;
+    --col4: transparent;
+}
+
+.light {
+    --col1: #333;
+    --col2: #F1F1F1;
+    --col3: red;
+    --col4: transparent;
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -133,6 +151,7 @@ h2 {
     height: 50px;
     margin-top: 20px;
     margin-left: 50px;
+    color: var(--col1);
 }
 
 .jour-nuit {
@@ -143,10 +162,12 @@ h2 {
     height: 30px;
     border-radius: 20px;
     transition: linear 0.3s;
+    background-color: var(--col2);
 }
 .cercleJN {
     width: 23px;
     height: 23px;
     border-radius: 23px;
-    background: var(--col1);
+    background-color: var(--col1);
+    transition: linear 0.3s;
 }
